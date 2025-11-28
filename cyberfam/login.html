@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <!-- LOGO CLICÁVEL -->
+
     <header class="topo-login">
         <a href="index.html" class="logo-area">
             <img src="img/logo.png" alt="Logo da CyberFam">
@@ -15,7 +15,7 @@
         </a>
     </header>
 
-    <!-- ÁREA PRINCIPAL DO LOGIN -->
+
     <main class="container-login">
 
         <h2>Entrar na Conta</h2>
@@ -41,14 +41,14 @@
 
     </main>
 
-    <!-- RODAPÉ -->
+
     <footer class="rodape-login">
         <p><strong>CyberFam</strong> — Protegendo seu mundo digital.</p>
         <p>Projeto acadêmico • 2025</p>
     </footer>
 
     <script>
-        // Redirecionamento pós-login para questionário inicial
+
         document.getElementById('loginForm').addEventListener('submit', function(e) {
             e.preventDefault();
 
@@ -60,7 +60,7 @@
                 msg.textContent = "Login bem-sucedido! Redirecionando...";
                 msg.style.display = "block";
 
-                // Redireciona para questionario1.html após 1s
+
                 setTimeout(() => {
                     window.location.href = "questionario1.html";
                 }, 1000);
@@ -74,3 +74,4 @@
 
 </body>
 </html>
+
