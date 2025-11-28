@@ -5,6 +5,7 @@
     font-family: "Inter", Arial, sans-serif;
 }
 
+
 body {
     background-color: #F4F6F8;
     color: #111827;
@@ -13,7 +14,6 @@ body {
     flex-direction: column;
 }
 
-/* LOGO SOLTA NO FUNDO */
 
 .topo-cadastro {
     padding: 30px 0;
@@ -21,23 +21,25 @@ body {
     justify-content: center;
 }
 
+
 .logo-area {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
+
 .logo-area img {
     width: 45px;
     height: auto;
 }
+
 
 .logo-area h1 {
     color: #0B3D91;
     font-size: 22px;
 }
 
-/* CONTAINER DO CADASTRO */
 
 .container-cadastro {
     background-color: white;
@@ -50,22 +52,24 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.08);
 }
 
+
 .container-cadastro h2 {
     margin-bottom: 10px;
 }
+
 
 .container-cadastro p {
     margin-bottom: 25px;
     font-size: 14px;
 }
 
-/* FORMULÁRIO */
 
 .form-cadastro {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
+
 
 .form-cadastro label {
     text-align: left;
@@ -78,7 +82,6 @@ body {
     border-radius: 0px;
 }
 
-/* BOTÃO QUADRADO */
 
 .form-cadastro button {
     margin-top: 10px;
@@ -91,11 +94,11 @@ body {
     font-size: 14px;
 }
 
+
 .form-cadastro button:hover {
     background-color: #0B3D91;
 }
 
-/* MENSAGENS */
 
 .message {
     margin-top: 10px;
@@ -103,22 +106,23 @@ body {
     display: none;
 }
 
-/* LINK LOGIN */
 
 .link-login {
     margin-top: 20px;
     font-size: 13px;
 }
 
+
 .link-login a {
     color: #00A3E0;
     text-decoration: none;
 }
 
-/* RODAPÉ ELEGANTE */
+
 .rodape {
     text-align: center;
     padding: 20px;
     font-size: 14px;
     color: #555;
+
 }
