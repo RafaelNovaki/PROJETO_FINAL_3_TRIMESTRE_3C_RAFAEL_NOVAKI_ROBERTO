@@ -13,7 +13,7 @@ body {
     flex-direction: column;
 }
 
-/* TOPO COM LOGO */
+
 .topo-login {
     width: 100%;
     padding: 20px 0;
@@ -38,7 +38,7 @@ body {
     font-size: 22px;
 }
 
-/* CONTAINER DO LOGIN */
+
 .container-login {
     width: 100%;
     max-width: 420px;
@@ -50,7 +50,7 @@ body {
     color: #111827;
 }
 
-/* TÍTULOS */
+
 .container-login h2 {
     font-size: 26px;
     margin-bottom: 8px;
@@ -62,7 +62,7 @@ body {
     color: #0B3D91;
 }
 
-/* FORMULÁRIO */
+
 .form-login {
     display: flex;
     flex-direction: column;
@@ -83,7 +83,7 @@ body {
     font-size: 14px;
 }
 
-/* BOTÃO */
+
 .form-login button {
     padding: 12px;
     background: #00A3E0;
@@ -99,14 +99,14 @@ body {
     background: #0B3D91;
 }
 
-/* MENSAGEM */
+
 .message {
     margin-top: 15px;
     font-size: 14px;
     display: none;
 }
 
-/* LINK CADASTRO */
+
 .link-cadastro {
     margin-top: 18px;
     font-size: 14px;
@@ -118,7 +118,7 @@ body {
     text-decoration: none;
 }
 
-/* RODAPÉ */
+
 .rodape-login {
     text-align: center;
     padding: 20px 0;
@@ -126,3 +126,4 @@ body {
     color: #cbd6e2;
     margin-top: auto;
 }
+
