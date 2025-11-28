@@ -7,3 +7,6 @@ DIAGRAMA DE CLASSES:
 
 DIAGRAMA DE ENTIDADE E RELACIONAMENTO:
 ![CyberFam (Diagrama de entidade e relacionamento)](https://github.com/user-attachments/assets/082350aa-f038-4077-8a86-e96d51965fa5)
+
+
+
