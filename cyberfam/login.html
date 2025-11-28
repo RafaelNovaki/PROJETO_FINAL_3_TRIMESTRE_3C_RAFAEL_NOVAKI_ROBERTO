@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - CyberFam</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+
+    <!-- LOGO CLICÁVEL -->
+    <header class="topo-login">
+        <a href="index.html" class="logo-area">
+            <img src="img/logo.png" alt="Logo da CyberFam">
+            <h1>CyberFam</h1>
+        </a>
+    </header>
+
+    <!-- ÁREA PRINCIPAL DO LOGIN -->
+    <main class="container-login">
+
+        <h2>Entrar na Conta</h2>
+        <p>Acesse utilizando seu email e senha.</p>
+
+        <form id="loginForm" class="form-login">
+
+            <label>Email</label>
+            <input type="email" id="email" placeholder="Digite seu email" required>
+
+            <label>Senha</label>
+            <input type="password" id="password" placeholder="Digite sua senha" required>
+
+            <button type="submit" id="loginBtn">Entrar</button>
+
+            <div id="message" class="message"></div>
+
+        </form>
+
+        <p class="link-cadastro">
+            Ainda não tem conta? <a href="cadastro.html">Criar cadastro</a>
+        </p>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape-login">
+        <p><strong>CyberFam</strong> — Protegendo seu mundo digital.</p>
+        <p>Projeto acadêmico • 2025</p>
+    </footer>
+
+    <script>
+        // Redirecionamento pós-login para questionário inicial
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const email = document.getElementById('email').value.trim();
+            const password = document.getElementById('password').value.trim();
+            const msg = document.getElementById('message');
+
+            if(email && password){
+                msg.textContent = "Login bem-sucedido! Redirecionando...";
+                msg.style.display = "block";
+
+                // Redireciona para questionario1.html após 1s
+                setTimeout(() => {
+                    window.location.href = "questionario1.html";
+                }, 1000);
+
+            } else {
+                msg.textContent = "Por favor, preencha todos os campos.";
+                msg.style.display = "block";
+            }
+        });
+    </script>
+
+</body>
+</html>

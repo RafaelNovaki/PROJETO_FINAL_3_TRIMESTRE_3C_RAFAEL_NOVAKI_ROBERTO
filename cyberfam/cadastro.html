@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro - CyberFam</title>
+
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+</head>
+
+<body>
+
+    <!-- LOGO CLICÁVEL PARA VOLTAR À PÁGINA INICIAL -->
+    <header class="topo-cadastro">
+        <a href="index.html" class="logo-area">
+            <img src="img/logo.png" alt="Logo da CyberFam">
+            <h1>CyberFam</h1>
+        </a>
+    </header>
+
+    <!-- ÁREA PRINCIPAL DO CADASTRO -->
+    <main class="container-cadastro">
+
+        <h2>Criar Conta</h2>
+        <p>Preencha os dados abaixo para se cadastrar.</p>
+
+        <form id="registerForm" class="form-cadastro">
+
+            <label>Nome</label>
+            <input type="text" id="name" placeholder="Digite seu nome" required>
+
+            <label>Email</label>
+            <input type="email" id="email" placeholder="Digite seu email" required>
+
+            <label>Senha</label>
+            <input type="password" id="password" placeholder="Digite sua senha" required>
+
+            <label>Confirmar Senha</label>
+            <input type="password" id="confirmPassword" placeholder="Confirme sua senha" required>
+
+            <button type="submit" id="submitBtn">Cadastrar</button>
+
+            <div id="message" class="message"></div>
+
+        </form>
+
+        <p class="link-login">
+            Já tem uma conta? <a href="login.html">Fazer login</a>
+        </p>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+        <p>© 2025 Cyberfam — Mais segurança. Menos preocupação.</p>
+    </footer>
+
+    <!-- SCRIPT FINAL (USA O ARQUIVO JS EXTERNO) -->
+    <script type="module" src="js/cadastro.js"></script>
+
+</body>
+</html>
